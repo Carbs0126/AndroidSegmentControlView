@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SegmentControlView">
+        <attr name="scv_BackgroundSelectedColor" format="reference|color" />
+        <attr name="scv_BackgroundNormalColor" format="reference|color" />
+        <attr name="scv_TextSelectedColor" format="reference|color" />
+        <attr name="scv_TextNormalColor" format="reference|color" />
+        <attr name="scv_FrameColor" format="reference|color" />
+        <attr name="scv_FrameWidth" format="reference|dimension" />
+        <attr name="scv_FrameCornerRadius" format="reference|dimension" />
+        <attr name="scv_TextSize" format="reference|dimension" />
+        <attr name="scv_TextArray" format="reference" />
+        <attr name="scv_SelectedIndex" format="reference|integer" />
+        <attr name="scv_SegmentPaddingHorizontal" format="reference|dimension" />
+        <attr name="scv_SegmentPaddingVertical" format="reference|dimension" />
+        <attr name="scv_Gradient" format="reference|boolean" />
+    </declare-styleable>
+    
+</resources>

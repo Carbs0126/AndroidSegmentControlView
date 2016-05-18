@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/cn.carbs.android.segmentcontrolview"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffffff"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AT_MOST Mode"
+        android:textColor="#bb2CA99F"
+        android:textSize="14sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="8dp"
+        android:background="#33555555"/>
+
+    <cn.carbs.android.segmentcontrolview.library.SegmentControlView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:scv_FrameCornerRadius="6dp"
+        app:scv_FrameWidth="1dp"
+        app:scv_Gradient="true"
+        app:scv_SegmentPaddingVertical="5dp"
+        app:scv_TextArray="@array/segment_control_arrays_0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="EXACTLY Mode"
+        android:textColor="#bb2CA99F"
+        android:textSize="14sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="8dp"
+        android:background="#33555555"/>
+
+    <cn.carbs.android.segmentcontrolview.library.SegmentControlView
+        android:id="@+id/scv"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:scv_FrameCornerRadius="3dp"
+        app:scv_FrameWidth="1dp"
+        app:scv_Gradient="true"
+        app:scv_SegmentPaddingVertical="5dp"
+        app:scv_TextArray="@array/segment_control_arrays_1"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_change_segment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Change Segment"/>
+
+        <Button
+            android:id="@+id/button_toggle_gradient"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

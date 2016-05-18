@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SegmentControlView</string>
+    <string-array name="segment_control_arrays_0">
+        <item>Real Madrid</item>
+        <item>Barcelona</item>
+    </string-array>
+
+    <string-array name="segment_control_arrays_1">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+    </string-array>
+</resources>
