@@ -319,7 +319,7 @@ public class SegmentControlView extends View {
     
     /**
      * setViewPager(viewpager) to response to the change of ViewPager
-     * @param viewPager
+     * @param viewPager the viewPager you want segmentcontrolview to respond with
      */
     public void setViewPager(ViewPager viewPager) {
         this.viewPager = viewPager;
@@ -330,7 +330,7 @@ public class SegmentControlView extends View {
     
     /**
      * set if this view has the Gradient effect when segment changed
-     * @param gradient
+     * @param gradient set if you want gradient effect
      */
     public void setGradient(boolean gradient){
     	if(mIsGradient != gradient){
@@ -345,7 +345,7 @@ public class SegmentControlView extends View {
     /**
      * when segment changed, 
      * mOnSegmentChangedListener.onSegmentChanged(newSelectedIndex) will be triggered
-     * @param listener
+     * @param listener OnSegmentChangedListener
      */
     public void setOnSegmentChangedListener(OnSegmentChangedListener listener){
 		mOnSegmentChangedListener = listener;
