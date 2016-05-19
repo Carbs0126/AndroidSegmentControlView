@@ -17,13 +17,13 @@ this view has many interesting configurations such as :
 
 ## Screenshot
 <center>
-![you can check the AndroidSegmentControlView_screenshot.png](https://github.com/Carbs0126/AndroidSegmentControlView/blob/master/SegmentControlView/Screenshot/AndroidSegmentControlView.gif)
+![you can check the AndroidSegmentControlView_screenshot.png](https://github.com/Carbs0126/Screenshot/blob/master/AndroidSegmentControlView.gif)
 </center><br>
 <center>
-![SegmentControlView pressed](https://github.com/Carbs0126/AndroidSegmentControlView/blob/master/SegmentControlView/Screenshot/AndroidSegmentControlView2.jpg)
+![SegmentControlView pressed](https://github.com/Carbs0126/Screenshot/blob/master/AndroidSegmentControlView2.jpg)
 </center>
 <center>
-![SegmentControlView gradient effect](https://github.com/Carbs0126/AndroidSegmentControlView/blob/master/SegmentControlView/Screenshot/AndroidSegmentControlView3.jpg)
+![SegmentControlView gradient effect](https://github.com/Carbs0126/Screenshot/blob/master/AndroidSegmentControlView3.jpg)
 </center>
 ## Example
 in xml layout:
