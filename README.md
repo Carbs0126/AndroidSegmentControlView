@@ -26,13 +26,13 @@ this view has many interesting configurations such as :
 ![SegmentControlView gradient effect](https://github.com/Carbs0126/Screenshot/blob/master/AndroidSegmentControlView3.jpg)
 </center>
 ## Example
-1. first add dependences
+ first add dependences
 ```
   dependencies {
     compile 'cn.carbs.android:SegmentControlView:1.0.0'
   }
 ```
-2. then add in xml layout:
+ then add in xml layout:
 ```
     <cn.carbs.android.segmentcontrolview.library.SegmentControlView
         android:id="@+id/scv"
@@ -47,7 +47,7 @@ this view has many interesting configurations such as :
         app:scv_SegmentPaddingVertical="5dp"
         app:scv_TextArray="@array/segment_control_arrays_1"/>
 ```
-3. then handle SegmentControlView in java code
+ then handle SegmentControlView in java code
 ```
     segmentcontrolview.setOnSegmentChangedListener(new SegmentControlView.OnSegmentChangedListener() {
         @Override
@@ -64,6 +64,9 @@ this view has many interesting configurations such as :
     segmentcontrolview.setSelectedIndex();
     //set gradient effect if you want
     segmentcontrolview.setGradient(true);
+    
+    //if you directly set viewpager's current item, the segmentcontrolview's segment will change correspondly.
+    viewpager.setCurrentItem(newSelectedIndex, false);
 ```
 ## TODO
 Not support generating a MaxHeightView by java code
