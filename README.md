@@ -10,10 +10,6 @@ this view has many interesting configurations such as :
   3. set colors of texts and background.
   4. set titles in xml resource file.
   5. has pressed effect when finger touches this view, you can set the dark coefficient.
-  
-  Author:Carbs.Wang
-  
-  Email:yeah0126#yeah.net
 
 ## Screenshot
 <center>
@@ -75,7 +71,7 @@ enjoy.
 
 ## License
 
-    Copyright 2016 Carbs.Wang (AndroidSegmentControlView)
+    Copyright 2016 Carbs (AndroidSegmentControlView)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
