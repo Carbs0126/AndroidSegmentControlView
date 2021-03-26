@@ -12,15 +12,14 @@ this view has many interesting configurations such as :
   5. has pressed effect when finger touches this view, you can set the dark coefficient.
 
 ## Screenshot
-<center>
+
 ![you can check the AndroidSegmentControlView_screenshot.png](https://github.com/Carbs0126/Screenshot/blob/master/AndroidSegmentControlView.gif)
-</center><br>
-<center>
+
 ![SegmentControlView pressed](https://github.com/Carbs0126/Screenshot/blob/master/AndroidSegmentControlView2.jpg)
-</center>
-<center>
+
 ![SegmentControlView gradient effect](https://github.com/Carbs0126/Screenshot/blob/master/AndroidSegmentControlView3.jpg)
-</center>
+
+
 ## Example
  first add dependences
 ```
